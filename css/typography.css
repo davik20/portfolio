@@ -1,0 +1,10 @@
+/* Heading underlined */
+.paragraph1 {
+  
+    color: var(--white);
+    filter: brightness(.8);
+    font-size: 1.7rem;
+    line-height: 2.9rem;
+white-space:normal;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,43 @@
+.cardd {
+
+    padding: 3rem 1.5rem;
+
+    
+    border-top: 2px solid var(--lightBlue);
+
+    display:  grid;
+    grid-row-gap: 2rem;
+    justify-items: center;
+    box-shadow: 1px 1.5rem  3rem rgb(0,0,0,.1);
+    border-radius: 5px;
+    background-color: var(--background);
+
+     
+    
+}
+
+
+.cardd__title {
+
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right, var(--lightBlue), var(--lightPurple));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+
+}
+
+.cardd__description {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    line-height: 2.9rem;
+    color:  var(--whiteFaded);
+}
+
+.cardd__cta {
+   
+    font-size: 2rem;
+    padding: 1.5rem 4rem !important;
+    
+
+} 

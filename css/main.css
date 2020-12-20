@@ -1,0 +1,115 @@
+
+
+:root {
+    --blue: rgb(151, 151, 202);
+    --lightBlue: rgb(105,77, 240);
+    --lightPurple: rgb(191,10,117);
+    --darkBlue: rgb(15,12,31);
+     --background: rgb(15,12,31);
+    --white: white; 
+    --whiteFaded: rgb(255, 255, 255, .8);
+   
+    
+    /* --blue: rgb(151, 151, 202);
+    --lightBlue: rgb(105,77, 240);
+    --lightPurple: rgb(191,10,117);
+    --darkBlue: rgb(15,12,31) ;
+    --background: white;
+    --white: rgb(15,12,31);
+    --whiteFaded: rgb(15,12,31); */
+     
+
+}
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(255, 0, 0) */
+   
+    
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    /* height: 12000px; */
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.main-container {
+
+    background-color: var(--background);
+    overflow: hidden;
+    position: relative;
+
+}
+
+/* body{
+    perspective: 1000px;
+    perspective-origin: left;
+} */
+
+/* .main-container {
+    perspective: 1000px;
+    perspective-origin: left;
+} */
+
+/* footer */
+
+.footer {
+    color: var(--white);
+    text-align: center;
+    font-size: 2rem;
+    /* font-family: cursive; */
+    padding-bottom: 5rem;
+}
+
+.footer a {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--white) !important;
+}
+
+
+
+
+
+@media (max-width: 1140px) {
+
+    html {
+        font-size: 9px;
+        
+    }
+}
+@media (max-width: 575px) {
+
+    html {
+        font-size: 9px;
+        
+    }
+}
+
+@media  (max-width: 455px){
+
+    html {
+        font-size: 8px;
+       
+    }
+
+}
+@media  (max-width: 399px){
+
+    html {
+        font-size: 7px;
+       
+    }
+
+}
+
+
